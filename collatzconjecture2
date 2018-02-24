@@ -1,0 +1,12 @@
+#Mary McDonagh, 2018-02-24
+#Collatz Conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
+
+x = int(input("Please enter an integer: "))
+while x!=1: #to check for loop to infinity
+    if x%2==0: #if is even number
+        x=x/2
+        print(x)
+    else: # if is odd number
+        x=(x*3)+1
+        print(x)
+
